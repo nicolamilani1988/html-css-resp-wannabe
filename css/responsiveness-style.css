@@ -57,3 +57,10 @@
   #why hr{
     display: none;
   }
+
+  #why .third:before{
+    content: '';
+    display: block;
+    border-top: 2px solid black;
+    margin-bottom: 50px;
+  }
