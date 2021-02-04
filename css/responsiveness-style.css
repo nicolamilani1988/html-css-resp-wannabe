@@ -51,5 +51,9 @@
 
   #steps .row>.right, #why .row>.third {
     width: 100%;
-    margin-top: 50px;
+    margin: 50px 0;
+  }
+
+  #why hr{
+    display: none;
   }
