@@ -16,34 +16,40 @@
 
 }
 
-/* REGOLE PER LASCIARE foto LEFT E CENTRAL VICINE */
+/* BONUS */
 
-/* @media all and (max-width: 420px){
+@media all and (min-width: 421px) and (max-width: 768px){
 
-  #steps img{
-    max-height: 150px;
-  }
-
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right{
-    margin-bottom: 50px;
-  }
-
-  #steps .row>.left, #steps .row>.central{
-    width: 50%;
-  }
-
-  #steps .row>.left, #steps .row>.right{
-    float: left;
-  }
-
-  #steps .row>.central{
-    float: right;
-  }
-
-  #steps .row>.right {
+  /* regole generali */
+  .row{
     width: 100%;
   }
 
-} */
+  img{
+    height: 150px;
+  }
+
+  /* regole #lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+  }
+
+  /* regole steps */
+  #steps .row>.left, #steps .row>.central, #why .row>.first,
+  #why .row>.second{
+    width: 50%;
+  }
+
+  #steps .row>.left, #steps .row>.right, #why .row>.first, #why .row>.third{
+    float: left;
+  }
+
+  #steps .row>.central, #why .row>.second{
+    float: right;
+  }
+
+  #steps .row>.right, #why .row>.third {
+    width: 100%;
+    margin-top: 50px;
+  }
